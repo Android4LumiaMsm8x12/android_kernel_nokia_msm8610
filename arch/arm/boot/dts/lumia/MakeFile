@@ -1,6 +1,6 @@
 ifeq ($(CONFIG_OF),y)
 
-dtb-$(CONFIG_ARCH_MSM8610) += msm8994-nokia-vela.dtb
+dtb-$(CONFIG_ARCH_MSM8610) += msm8610-nokia-vela.dtb
 
 DTB_NAMES := $(subst $\",,$(CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES))
 ifneq ($(DTB_NAMES),)
