@@ -1,0 +1,23 @@
+/* Copyright (c) 2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013 Motorola Mobility LLC
+ * Copyright (c) 2025 Vicente Iñaki Cortés Cortés
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 and
+ * only version 2 as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */
+
+/ {
+	model = "Nokia Lumia QC-MSM8610/MSM8612";
+	compatible = "qcom,msm8610-msft", "qcom,msm8610-nokia", "qcom,msm8610";
+
+	memory {
+		reg = <0x00000000 0x00000000>,
+		      <0x00000000 0x00000000>;
+	};
+};
