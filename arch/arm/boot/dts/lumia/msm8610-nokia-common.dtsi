@@ -13,7 +13,7 @@
  */
 
 / {
-	model = "Nokia Lumia MSM8610/MSM8612 Device";
+	model = "Nokia Lumia 435/530 Device";
 	compatible = "qcom,msm8610-msft", "qcom,msm8610-nokia", "qcom,msm8610";
 
 	memory {
